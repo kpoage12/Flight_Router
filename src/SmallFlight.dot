@@ -1,0 +1,23 @@
+graph SmallFlight {
+    "DFW" -- "MKE" [miles=853];
+    "DFW" -- "BNA" [miles=631];
+    "DAL" -- "STL" [miles=546];
+    "BNA" -- "DAL" [miles=623];
+    "DFW" -- "SJC" [miles=1439];
+    "DFW" -- "PDX" [miles=1616];
+    "BWI" -- "DFW" [miles=1216];
+    "CLE" -- "DFW" [miles=1021];
+    "CLT" -- "DFW" [miles=937];
+    "DFW" -- "LAS" [miles=1055];
+
+    "DFW" [city="Dallas, TX"];
+    "BNA" [city="Nashville, TN"];
+    "DAL" [city="Dallas, TX"];
+    "STL" [city="Saint Louis, MO"];
+    "SJC" [city="San Jose, CA"];
+    "PDX" [city="Portland, OR"];
+    "BWI" [city="Baltimore, MD"];
+    "CLE" [city="Cleveland, OH"];
+    "CLT" [city="Charlotte, NC"];
+    "LAS" [city="Las Vegas, NV"];
+}
